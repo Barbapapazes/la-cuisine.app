@@ -1,3 +1,3 @@
 <template>
-  <section class="h-screen w-full">a full container</section>
+  <section class="h-screen w-full"><slot></slot></section>
 </template>
