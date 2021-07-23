@@ -1,0 +1,15 @@
+<template>
+  <h1
+    class="
+      md:text-6xl
+      font-bold
+      bg-gradient-to-r
+      from-primary
+      to-secondary
+      bg-clip-text
+      text-transparent
+    "
+  >
+    <slot></slot>
+  </h1>
+</template>
