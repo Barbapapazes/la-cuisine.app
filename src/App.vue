@@ -1,7 +1,7 @@
 <template>
+  <Footer></Footer>
 </template>
 
 <script setup>
-import Footer from './components/organisms/Footer.vue'
+import Footer from "./components/organisms/Footer.vue";
 </script>
-
