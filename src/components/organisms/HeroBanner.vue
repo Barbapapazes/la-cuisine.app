@@ -1,5 +1,5 @@
 <template>
-  <section class="h-screen w-full pt-40 flex flex-col items-center">
+  <section class="h-screen w-full pt-40 flex flex-col items-center relative">
     <h1
       class="
         text-6xl
