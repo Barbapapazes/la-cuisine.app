@@ -1,15 +1,20 @@
 <template>
-  <h1
-    class="
-      md:text-6xl
-      font-bold
-      bg-gradient-to-r
-      from-primary
-      to-secondary
-      bg-clip-text
-      text-transparent
-    "
-  >
-    <slot></slot>
-  </h1>
+  <div class="flex flex-col justify-start items-start">
+    <h1
+      class="
+        inline
+        text-4xl
+        md:text-6xl
+        font-bold
+        bg-gradient-to-r
+        from-primary
+        to-secondary
+        bg-clip-text
+        text-transparent
+        pb-4
+      "
+    >
+      <slot></slot>
+    </h1>
+  </div>
 </template>
