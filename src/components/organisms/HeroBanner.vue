@@ -21,7 +21,9 @@
     </h2>
     <div class="mt-32 flex justify-center flex-col md:flex-row items-center">
       <a
-        href=""
+        href="https://bit.ly/la-cuisine-bienvenue"
+        target="_blank"
+        rel="noreferrer noopener"
         class="
           text-white
           bg-primary
@@ -34,7 +36,9 @@
         >Le Concept</a
       >
       <a
-        href=""
+        href="https://bit.ly/la-cuisine-form"
+        target="_blank"
+        rel="noreferrer noopener"
         class="
           mt-5
           md:mt-0 md:ml-16
