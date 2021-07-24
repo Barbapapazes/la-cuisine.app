@@ -63,7 +63,6 @@
         rounded-full
         filter
         blur-3xl
-        mix-blend-multiply
       "
     ></div>
     <div
@@ -79,7 +78,6 @@
         rounded-full
         filter
         blur-3xl
-        mix-blend-multiply
       "
     ></div>
     <div
@@ -93,7 +91,6 @@
         rounded-full
         filter
         blur-3xl
-        mix-blend-multiply
       "
     ></div>
   </section>

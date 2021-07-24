@@ -1,12 +1,14 @@
 <template>
   <footer
     class="
+      dark:text-white
       text-center
       space-y-6
       p-8
       bg-gradient-to-r
       from-secondary/20
       to-primary/20
+      dark:from-secondary/40 dark:to-primary/40
     "
   >
     <a href="mailto:contact@la-cuisine.app" class="text-primary text-base"
@@ -15,7 +17,8 @@
     <div class="flex flex-row space-x-2 justify-center items-center">
       <div>Fait avec</div>
       <IconHeart />
-      <div>par des étudiants</div>
+      <div>par des étudiants -</div>
+      <ToggleTheme />
     </div>
     <div class="text-sm font-light">
       <div>Hébergé sur Netlify</div>
@@ -26,4 +29,5 @@
 
 <script setup>
 import IconHeart from "../atoms/icons/IconHeart.vue";
+import ToggleTheme from "../molecules/ToggleTheme.vue";
 </script>
