@@ -2,8 +2,7 @@
   <div class="flex flex-col justify-start items-start">
     <h1
       class="
-        inline
-        text-2xl
+        text-3xl
         sm:text-4xl
         md:text-6xl
         font-bold
