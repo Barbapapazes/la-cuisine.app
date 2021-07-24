@@ -35,7 +35,7 @@
           nombreuses recettes pour ton prochain repas, pour inspirer ta
           prochaine envie culinaire !
         </FullContainerText>
-        <GraphicNewIdea class="w-full h-auto mt-8" />
+        <GraphicNewIdea class="w-full h-auto lg:h-[500px] mt-8" />
       </template>
     </FullContainer>
     <FullContainer>
@@ -47,7 +47,7 @@
       <template #content>
         <div class="flex flex-col lg:flex-row">
           <GraphicSearch class="w-full h-auto" />
-          <FullContainerText class="mt-8 lg:mt-0 text-right max-w-lg">
+          <FullContainerText class="mt-8 lg:mt-0 text-right max-w-xl lg:ml-8">
             La Cuisine, c’est une grande base de données en ligne dans laquelle
             tu peux rechercher une recettre par son nom ou les filtrers en
             utilisant l’un des nombreux tags !
@@ -63,7 +63,7 @@
       </template>
       <template #content>
         <FullContainerText> La Cuisine le permet ! </FullContainerText>
-        <GraphicTodoList class="w-full h-auto mt-8" />
+        <GraphicTodoList class="w-full h-auto lg:h-[354px] mt-8" />
         <FullContainerText class="text-right mt-8">
           La Cuisine permet aussi de créer sa liste de courses en fonction des
           recettes que vous souhaitez faire ! <br />
