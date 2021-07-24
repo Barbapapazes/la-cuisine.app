@@ -9,7 +9,9 @@
       to-primary/20
     "
   >
-    <a href="mailto:" class="text-primary text-base">Nous contacter</a>
+    <a href="mailto:contact@la-cuisine.app" class="text-primary text-base"
+      >Nous contacter</a
+    >
     <div class="flex flex-row space-x-2 justify-center items-center">
       <div>Fait avec</div>
       <IconHeart />
@@ -17,7 +19,7 @@
     </div>
     <div class="text-sm font-light">
       <div>Hébergé sur Netlify</div>
-      <div>Illustration par unDraw</div>
+      <div>Illustrations par unDraw</div>
     </div>
   </footer>
 </template>
