@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col justify-start items-start">
     <h1
+      v-motion-slide-visible-left
       class="
         text-3xl
         sm:text-4xl

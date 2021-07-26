@@ -1,6 +1,7 @@
 <template>
   <section class="h-screen w-full pt-40 flex flex-col items-center relative">
     <h1
+      v-motion
       class="
         text-6xl
         md:text-[9rem]
@@ -12,14 +13,35 @@
         bg-clip-text
         text-transparent
       "
+      :delay="100"
+      :initial="{
+        opacity: 0,
+        y: -200,
+      }"
+      :enter="{
+        opacity: 1,
+        y: 0,
+      }"
     >
       La Cuisine
     </h1>
-    <h2 class="text-center text-grey text-2xl md:text-4xl mt-5">
+    <h2
+      v-motion
+      class="text-center text-grey text-2xl md:text-4xl mt-5"
+      :delay="150"
+      :initial="{ opacity: 0, y: -200 }"
+      :enter="{
+        opacity: 1,
+        y: 0,
+      }"
+    >
       Un livre de recettes <br />
       entièrement numériques
     </h2>
-    <div class="mt-32 flex justify-center flex-col md:flex-row items-center">
+    <div
+      ref="motion_1"
+      class="mt-32 flex justify-center flex-col md:flex-row items-center"
+    >
       <a
         href="https://bit.ly/la-cuisine-bienvenue"
         target="_blank"
@@ -98,3 +120,26 @@
     ></div>
   </section>
 </template>
+
+<script setup>
+import { ref } from "vue"
+import { useMotion } from "@vueuse/motion"
+const motion_1 = ref()
+
+useMotion(motion_1, {
+  initial: {
+    y: 100,
+    opacity: 0,
+  },
+  enter: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      stiffness: 320,
+      damping: 20,
+      delay: 400,
+    },
+  },
+})
+</script>
