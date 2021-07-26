@@ -1,5 +1,5 @@
 <template>
-  <main class="overflow-hidden relative max-w-7xl mx-auto">
+  <main class="overflow-hidden xl:overflow-visible relative max-w-7xl mx-auto">
     <HeroBanner />
     <FullContainer>
       <template #title>
@@ -20,6 +20,18 @@
       </template>
     </FullContainer>
     <FullContainer>
+      <GraphicBlob
+        class="
+          text-primary/20
+          dark:text-primary/40
+          fill-current
+          absolute
+          h-full
+          transform
+          rotate-180
+          -translate-x-1/2
+        "
+      />
       <template #title>
         <FullContainerTitle>
           Tu ne sais pas quoi manger aujourd’hui ?
@@ -32,7 +44,14 @@
           prochaine envie culinaire !
         </FullContainerText>
         <GraphicNewIdea
-          class="w-full h-auto lg:h-[500px] place-self-center lg:col-span-2"
+          class="
+            w-full
+            h-auto
+            lg:h-[500px]
+            place-self-center
+            lg:col-span-2
+            relative
+          "
         />
       </template>
     </FullContainer>
@@ -77,6 +96,20 @@
       </template>
     </FullContainer>
     <FullContainer>
+      <GraphicBlob
+        class="
+          text-secondary/20
+          dark:text-secondary/40
+          fill-current
+          absolute
+          right-[-10vh]
+          rotate-180
+          top-[-5vh]
+          h-[110%]
+          transform
+          translate-x-1/2
+        "
+      />
       <template #title>
         <FullContainerTitle>
           Besoin de changer des pâtes aux lardons ?

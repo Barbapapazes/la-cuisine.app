@@ -13,6 +13,7 @@
         bg-clip-text
         text-transparent
         pb-4
+        relative
       "
     >
       <slot></slot>
