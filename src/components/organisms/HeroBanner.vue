@@ -60,6 +60,7 @@
         w-[400px]
         h-[400px]
         bg-primary/25
+        dark:bg-primary/40
         rounded-full
         filter
         blur-3xl
@@ -75,6 +76,7 @@
         w-[400px]
         h-[400px]
         bg-tertiary/25
+        dark:bg-tertiary/40
         rounded-full
         filter
         blur-3xl
@@ -88,6 +90,7 @@
         w-[400px]
         h-[400px]
         bg-secondary/25
+        dark:bg-secondary/40
         rounded-full
         filter
         blur-3xl
