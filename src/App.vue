@@ -116,15 +116,27 @@
 </template>
 
 <script setup>
-import HeroBanner from "./components/organisms/HeroBanner.vue";
-import Footer from "./components/organisms/Footer.vue";
-import FullContainer from "./components/atoms/FullContainer.vue";
-import FullContainerTitle from "./components/atoms/FullContainerTitle.vue";
-import FullContainerText from "./components/atoms/FullContainerText.vue";
-import GraphicBlob from "./components/atoms/Graphics/GraphicBlob.vue";
-import GraphicChef from "./components/atoms/Graphics/GraphicChef.vue";
-import GraphicIdeation from "./components/atoms/Graphics/GraphicIdeation.vue";
-import GraphicNewIdea from "./components/atoms/Graphics/GraphicNewIdea.vue";
-import GraphicSearch from "./components/atoms/Graphics/GraphicSearch.vue";
-import GraphicTodoList from "./components/atoms/Graphics/GraphicTodoList.vue";
+import HeroBanner from "./components/organisms/HeroBanner.vue"
+import Footer from "./components/organisms/Footer.vue"
+import FullContainer from "./components/atoms/FullContainer.vue"
+import FullContainerTitle from "./components/atoms/FullContainerTitle.vue"
+import FullContainerText from "./components/atoms/FullContainerText.vue"
+import GraphicBlob from "./components/atoms/Graphics/GraphicBlob.vue"
+import GraphicChef from "./components/atoms/Graphics/GraphicChef.vue"
+import GraphicIdeation from "./components/atoms/Graphics/GraphicIdeation.vue"
+import GraphicNewIdea from "./components/atoms/Graphics/GraphicNewIdea.vue"
+import GraphicSearch from "./components/atoms/Graphics/GraphicSearch.vue"
+import GraphicTodoList from "./components/atoms/Graphics/GraphicTodoList.vue"
+
+import { onMounted } from "vue"
+
+if (process.env.NODE_ENV === "production") {
+  onMounted(() => {
+    const script = document.createElement("script")
+    script.type = "text/javascript"
+    script.innerHTML =
+      '(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "7qe8xg43r7");'
+    document.head.appendChild(script)
+  })
+}
 </script>
