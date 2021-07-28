@@ -77,7 +77,14 @@
     <div
       v-motion-fade
       :delay="400"
-      class="absolute inset-0 flex flex-row justify-center items-end"
+      class="
+        absolute
+        inset-0
+        flex flex-row
+        justify-center
+        items-end
+        pointer-events-none
+      "
     >
       <div
         class="
