@@ -58,7 +58,7 @@
     <FullContainer>
       <template #title>
         <FullContainerTitle>
-          Marre d’imprimer des recettes ou de la rechercher dans tes favoris ?
+          Marre d’imprimer des recettes ou de les rechercher dans tes favoris ?
         </FullContainerTitle>
       </template>
       <template #content>
