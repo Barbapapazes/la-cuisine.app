@@ -1,4 +1,31 @@
 <template>
+  <section class="w-full h-screen flex flex-col justify-evenly">
+    <div class="max-w-screen-xl mx-auto">
+      <h1
+        class="bg-clip-text bg-gradient-to-br from-secondary to-primary text-6xl font-bold md:text-[9rem] text-transparent"
+      >
+        La Cuisine
+      </h1>
+      <h2 class="text-gray-500 text-xl md:text-4xl text-center mt-8">
+        Le livre de recettes <br />
+        numérique à porté de main
+      </h2>
+      <div
+        class="flex flex-col-reverse items-center md:flex-row justify-evenly max-w-lg mx-auto mt-48 md:mt-64"
+      >
+        <a
+          href="https://bit.ly/la-cuisine-bienvenue"
+          class="text-lg md:text-2xl py-2 px-4 mt-8 md:mt-0 md:py-3 md:px-6 rounded-lg border border-primary text-primary"
+          >Le Concept</a
+        >
+        <a
+          href="https://bit.ly/la-cuisine-livre"
+          class="text-lg md:text-2xl rounded-lg py-2 px-4 md:py-3 md:px-6 bg-primary text-white shadow-lg"
+          >Le Livre</a
+        >
+      </div>
+    </div>
+  </section>
   <div class="flex flex-col space-y-16 md:space-y-32">
     <section
       class="px-4 max-w-screen-xl mx-auto md:grid md:grid-cols-6 md:gap-16 md:relative md:pb-40"
@@ -59,10 +86,10 @@
           class="flex flex-row justify-center mt-8 md:mt-0 md:col-start-2 place-self-center"
         >
           <a
-            href="https://bit.ly/la-cuisine-livre"
+            href="https://bit.ly/la-cuisine-form"
             target="_blank"
             class="inline-block py-2 px-3 bg-primary text-white text-lg rounded-lg"
-            >Le livre</a
+            >Le Formulaire</a
           >
         </div>
       </div>
