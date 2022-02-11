@@ -1,19 +1,11 @@
 module.exports = {
-  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
-  darkMode: "class",
-  mode: "jit",
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
         primary: "#FF0F7B",
-        secondary: "#F89B29",
-        tertiary: "#FC4C57",
-        grey: "#ADADAD",
+        secondary: "#FFBA0F",
       },
     },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 }
