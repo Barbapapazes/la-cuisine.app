@@ -33,7 +33,7 @@
       <SectionTitle class="md:col-span-6"> Plus de 40 recettes </SectionTitle>
       <SectionText class="md:col-span-3">
         Dans le livre de La Cuisine, tu trouveras tout ce qu'il te convient du
-        premier repas de la journée au dernier, du repas simple e rapide au
+        premier repas de la journée au dernier, du repas simple et rapide à un
         repas plus complexe pour les grandes occasions !
       </SectionText>
       <SectionImg v-slot="{ attrs }">
@@ -68,7 +68,7 @@
           <br /><br />
           Aussi, tu pourras avoir une idée de la difficulté de la recette.
           <br /><br />
-          Plus d'excuse pour ne pas faire la cuisine.
+          Plus d'excuses pour ne pas faire la cuisine.
         </SectionText>
         <SectionImg v-slot="{ attrs }">
           <img
@@ -80,7 +80,7 @@
         </SectionImg>
         <SectionText class="md:col-start-2">
           Et comme le projet est communautaire, tu peux proposer des recettes ou
-          des améliorations pour rendre meilleur La Cuisine.
+          des améliorations pour rendre meilleure La Cuisine.
         </SectionText>
         <div
           class="flex flex-row justify-center mt-8 md:mt-0 md:col-start-2 place-self-center"
@@ -127,7 +127,7 @@
         La Cuisine te permet de faire le lien entre les recettes et ta liste de
         courses aux travers des ingrédients. <br />
         <br />
-        Avec cet ingénieurs système, tu t'assures de ne rien oublier au magasin
+        Avec cet ingénieux système, tu t'assures de ne rien oublier au magasin
         pour préparer tes plats préférés.
       </SectionText>
       <SectionImg v-slot="{ attrs }">
