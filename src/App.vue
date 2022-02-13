@@ -8,7 +8,7 @@
       </h1>
       <h2 class="text-gray-500 text-xl md:text-4xl text-center mt-8">
         Le livre de recettes <br />
-        numérique à porté de main
+        numérique à portée de main
       </h2>
       <div
         class="flex flex-col-reverse items-center md:flex-row justify-evenly max-w-lg mx-auto mt-48 md:mt-64"
